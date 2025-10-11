@@ -1,10 +1,14 @@
-/* CSS file for any tweaks that you don't want to put in the main files */
+.navbar-brand, .nav-link {
+  font-family: 'Montserrat';
+  font-weight: 700
+}
+.text-blue {
+  color: #000080 !important;
+}
+.bg-yellow {
+  background-color: #F5DEB3 !important;
+}
 
 body {
   min-height: 75rem;
-}
-
-/* Change the colour of the main bar here!  */
-.bg-dark {
-    background-color: #600!important;
 }

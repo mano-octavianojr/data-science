@@ -16,7 +16,10 @@ html:focus-within {
 }
 
 h1,h2,h3,h4 {font-weight: bold}
-    body {font-family: 'Fira Sans', sans-serif; }
+  body {
+    font-family: 'Montserrat';
+    color: #00008B;
+  }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -81,4 +84,4 @@ td, p, li {
           }
 td {font-size: 0.8rem;}
           }
-      }
+      
