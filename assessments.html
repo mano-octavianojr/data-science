@@ -38,7 +38,8 @@
     <hr>
 
     <h3>Programming</h3>
-    <p>You will be required to complete three programming assignments, <strong>each contributing 10% to your final grade </strong>. These
+    <p>You will be required to complete three programming assignments, <strong>each contributing 10% to your final grade
+      </strong>. These
       assignments are designed to reinforce the concepts and skills you've learned throughout the course:</p>
     <ul>
       <li><strong>Programming #1:</strong>: SQL using Python</li>
@@ -69,10 +70,6 @@
       the
       dataset.</p>
 
-    <p><a href="#top">Back to top</a> | &copy;
-      <script>document.write(/\d{4}/.exec(Date())[0])</script> Instructor name at University | <a
-        href="https://github.com/paulhaimes/syllabus-template" target="_blank">View template on Github</a>
-    </p>
   </main>
 
 
@@ -80,13 +77,23 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
+
+  <script>
+    fetch('shared/navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script>
+
+  <script>
+    fetch('shared/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+  </script>
 </body>
-<script>
-  fetch('shared/navbar.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('navbar').innerHTML = data;
-    });
-</script>
+
 
 </html>
